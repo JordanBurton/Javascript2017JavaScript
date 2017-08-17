@@ -70,7 +70,7 @@ var j = 0
 
 console.log("\n")
 
- var studentName = "yeet"
+ var studentName = "jordan"
  var capSN = ""
 //     lcv       collection
  for ( var l in studentName) {
