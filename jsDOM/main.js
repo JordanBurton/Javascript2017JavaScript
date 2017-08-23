@@ -1,7 +1,5 @@
 let input = document.getElementById("input")
-console.log(input);
 let output = document.getElementById("output")
-console.log(output);
 let ulist = document.getElementById("friendsList")
 let newName = "";
 
