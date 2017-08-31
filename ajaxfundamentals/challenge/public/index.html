@@ -7,27 +7,32 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-  <body>
+  <body background="./css/img/background.jpg">
+  <br />
   <div class="container">
-  	<div class="input-group">
-	    <span class="input-group-btn">
-	       <button class="btn btn-primary" type="button" id="searchName">Search</button>
-	    </span>
-	    <input type="text" class="form-control" placeholder="Search for character" id="searchRes">
-	</div>
+  <div class="row">
+  	<div class="col-md-3">
+  		<a>
+	       <img class="btn" type="image" id="searchName" src="./css/img/playbutton.png"></img>
+	    </a>
+  	</div>
+  	<div class="col-md-9" id="champName">
+  		<input type="text" class="form-control" placeholder="Search for champion" id="searchRes">
+  	</div>
+  </div>
 	<br>
 	<div class="well" id="searchResult"></div>
 	<hr>
 	<hr>
 	<div class="row">
 		<div class="col-md-6">
-			<table class="table table-striped table-bordered">
+			<table class="table table-solid table-bordered" style="background-color: grey">
 				<thead class="">
 					<tr>
 						<th>Champion Names + Titles</th>
 					</tr>
 				</thead>
-				<tbody id="names">
+				<tbody background-color: grey, id="names">
 					
 				</tbody>
 			</table>

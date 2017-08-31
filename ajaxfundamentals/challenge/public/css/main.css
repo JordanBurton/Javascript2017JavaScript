@@ -1,0 +1,10 @@
+.backgroundimage {
+	background-image: './img/backgroundimage.jpg'
+}
+
+#champName {
+	height: 50px;
+}
+#searchRes {
+	height: 100%;
+}
