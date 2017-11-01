@@ -20,14 +20,14 @@
 */
 
 //initialize var; have boolien expression;
-for (var i = 0; i < 10; i = i + 1) {
+for (var i = 0; i < 10; i+= 1) {
 	console.log(i)
  }
 
  console.log("\n")
 
  //using a for loop, count to 20 by 2's
- for (var l = 0; l < 21; l = l + 2) {
+ for (var l = 0; l < 21; i+=2) {
 	console.log(l)
  }
 
